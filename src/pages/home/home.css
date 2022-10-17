@@ -1,0 +1,40 @@
+.canvas-container {
+  width: 70%;
+  padding: 2rem;
+  border: 2px solid lightblue;
+  max-width: 992px;
+}
+
+.controls-resolution,
+.controls-styles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.controls {
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    flex-direction: column;
+  }
+  .canvas-container {
+    width: 100%;
+  }
+}
